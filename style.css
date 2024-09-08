@@ -1,0 +1,288 @@
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f2f5;
+}
+
+/* Resume Container Styling */
+.resume-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #000829;
+    background-color: #93a8cb;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+.personal-info h1, .education h2, .work-experience h2, .skills h2 {
+    color: #fff; 
+    margin: 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #05005e; 
+    border: 2px solid black; 
+    font-size: 24px;
+}
+/* Personal Information Section Styling */
+.personal-info {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd; 
+    border-radius: 8px;
+    padding: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px; 
+}
+
+.about-me-heading {
+    color: #000000;
+    background-color: #f9ffff;
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 10px; 
+    border-bottom: 2px solid #ddd;
+}
+
+/* Profile Image Styling */
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0 4px 12px #05005e; 
+    transition: box-shadow 0.3s ease; 
+}
+
+/* About Me Text Styling */
+.about-me-text {
+    font-size: 16px; 
+    line-height: 1.5; 
+    margin-top: 10px; 
+}
+/* Education Section Styling */
+.education {
+    position: relative; 
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px; 
+  }
+  
+  /* Education Header Styling */
+  .education h2 {
+    margin: 0;
+    padding: 10px;
+    background-color: #05005e; 
+    color: #fff; 
+    border-radius: 5px;
+    border: 2px solid black; 
+    font-size: 24px;
+  }
+  
+  /* Education Container Styling */
+  .education-container {
+    margin-bottom: 50px; 
+  }
+  
+  /* Hide Container */
+  .education-container.hidden {
+    display: none; 
+  }
+  
+  /* List Styling */
+  .education ul {
+    list-style-type: none; 
+    padding: 0;
+  }
+  
+  .education li {
+    margin-bottom: 15px; 
+    padding: 10px;
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    background-color: #fff; 
+  }
+  
+  /* Field and Year Styling */
+  .field, .year {
+    display: block;
+    font-size: 14px;
+    color: #333;
+  }
+  
+ /* Work Experience Section Styling */
+.work-experience {
+    position: relative; 
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px; 
+  }
+  
+  /* Work Experience Header Styling */
+  .work-experience h2 {
+    margin: 0;
+    padding: 10px;
+    background-color: #05005e; 
+    color: #fff;
+    border-radius: 5px;
+    border: 2px solid black; 
+    font-size: 24px;
+  }
+  
+  /* Work Experience Container Styling */
+  .work-experience-container {
+    margin-bottom: 50px; 
+  }
+  
+  /* Hide Container */
+  .work-experience-container.hidden {
+    display: none; 
+  }
+  
+  /* List Styling */
+  .work-experience ul {
+    list-style-type: none; 
+    padding: 0;
+  }
+  
+  .work-experience li {
+    margin-bottom: 15px; 
+    padding: 10px;
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    background-color: #fff; 
+  }
+  
+  /* Company and Year Styling */
+  .company, .year {
+    display: block;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Responsibilities Styling */
+  .responsibilities {
+    font-size: 14px;
+    color: #333;
+  }
+  
+/* Skills Section Styling */
+
+.skills {
+    position: relative; 
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px; 
+  }
+  
+  /* Skills Header Styling */
+ .skills h2 {
+    margin-bottom: 20px; 
+  }
+  
+  /* Skills Container Styling */
+  .skills-container {
+    margin-bottom: 50px; 
+  }
+  
+  /* Hide Container */
+  .skills-container.hidden {
+    display: none; 
+  }
+  
+  /* Skill Items Styling */
+  .skill {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px; 
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Skill Name Styling */
+  .skill-name {
+    font-size: 16px;
+    color: #333;
+  }
+  
+/* Button Styling */
+button {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #003366; 
+    border: 2px solid black; 
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #002244; 
+    transform: translateY(-2px); 
+}
+.education-container, .work-experience-container, .skills-container {
+    display: block; 
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .resume-container {
+        padding: 10px;
+    }
+
+    .personal-info, .education, .work-experience, .skills {
+        padding: 15px;
+    }
+
+    .personal-info h1, .education h2, .work-experience h2, .skills h2 {
+        font-size: 20px;
+    }
+
+    .education-container, .work-experience-container, .skills-container {
+        margin-bottom: 30px;
+    }
+
+    .skill {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .resume-container {
+        padding: 5px;
+    }
+
+    .personal-info, .education, .work-experience, .skills {
+        padding: 10px;
+    }
+
+    .personal-info h1, .education h2, .work-experience h2, .skills h2 {
+        font-size: 18px;
+    }
+
+    .education-container, .work-experience-container, .skills-container {
+        margin-bottom: 20px;
+    }
+
+    .skill {
+        font-size: 12px;
+        padding: 6px 8px;
+    }
+}

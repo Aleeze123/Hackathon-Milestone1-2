@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aleeza's Interactive Resume</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="resume-container">
+    <!-- Personal Information -->
+ 
+    <section class="personal-info">
+      <h1>Personal Information</h1>
+      <p>Name: <strong>Aleeza</strong></p>
+      <p>Email: <strong>alizey649@gmail.com</strong></p>
+      <strong>Karachi, Pakistan</strong>
+      <img src="./ai.jpeg" alt="Aleeza's Profile Picture" class="profile-pic">
+      <h3 class="about-me-heading">About Me</h3>
+      <p class="about-me-text">Hi, I’m Aleeza, a 17-year-old web developer and creative enthusiast. I’m passionate about bringing innovative digital solutions to life, with a strong foundation in HTML, CSS, Tailwind CSS, TypeScript, and JavaScript. Currently, I’m diving into Next.js and exploring cloud technologies.
+        I blend creativity with technology in my projects, aiming to make a unique impact in the digital world. I’m excited to showcase my work and how I merge these skills to create engaging and dynamic solutions!</p>
+    </section>
+
+    <!-- Education -->
+    <section class="education">
+        <h2>Education</h2>
+        <div class="education-container">
+          <ul>
+            <li>
+              <strong>Govt Degree College Malir Cantt, Karachi</strong> 
+              (Intermediate)
+              <br> 
+              <span class="field">Field of Study: Computer Science</span>
+              <br>
+              <span class="year">Year: 2023 - Present</span>
+            </li>
+            <li>
+              <strong>APS South Malir Cantt</strong> 
+              (Matriculation)
+              <br> 
+              <span class="field">Field of Study: Science</span>
+              <br>
+              <span class="year">Year: 2021 - 2023</span>
+            </li>
+          </ul>
+        </div>
+        <button id="toggle-education">Hide Education</button>
+      </section>
+      
+    <!-- Work Experience -->
+    <section class="work-experience">
+      <h2>Work Experience</h2>
+     
+      <div class="work-experience-container">
+        <ul>
+          <!-- Web Developer Experience -->
+          <li>
+            <strong>Junior Web Developer</strong>
+            <br>
+            <span class="company">Tech Solutions Ltd.</span>
+            <br>
+            <span class="year">June 2023 - Present</span>
+            <br>
+            <p class="responsibilities">
+              - Developed and maintained websites using HTML, CSS, and JavaScript.
+              - Collaborated with the design team to create responsive web pages.
+              - Implemented new features and improved site performance based on user feedback.
+            </p>
+          </li>
+          <!-- Graphic Designer Experience -->
+          <li>
+            <strong>Graphic Designer</strong>
+            <br>
+            <span class="company">Creative Studios</span>
+            <br>
+            <span class="year">January 2022 - May 2023</span>
+            <br>
+            <p class="responsibilities">
+              - Designed visually appealing graphics for digital and print media.
+              - Created logos, brochures, and marketing materials using Adobe Creative Suite.
+              - Collaborated with clients to understand their vision and deliver high-quality designs.
+              - Managed multiple design projects simultaneously while meeting tight deadlines.
+            </p>
+          </li>
+        </ul>
+      </div>
+      <button id="toggle-work">Hide Work Experience</button>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills">
+      <h2>Skills</h2>
+     
+      <div class="skills-container">
+        <div class="skill">
+          <span class="skill-name">HTML</span>
+        </div>
+        <div class="skill">
+          <span class="skill-name">CSS</span>
+        </div>
+        <div class="skill">
+          <span class="skill-name">JavaScript</span>
+        </div>
+        <div class="skill">
+          <span class="skill-name">TypeScript</span>
+        </div>
+        <div class="skill">
+          <span class="skill-name">Tailwind CSS</span>
+        </div>
+        <div class="skill">
+          <span class="skill-name">Next.js</span>
+          
+        </div>
+        
+      </div>
+      <button id="toggle-skills">Hide Skills</button>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
